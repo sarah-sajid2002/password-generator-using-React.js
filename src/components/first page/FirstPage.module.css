@@ -1,0 +1,131 @@
+.html {
+  background-color: #ffe0df;
+  background: radial-gradient(#bbc5e6, #694ffd);
+
+  /*  background-image:url('https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F1479854258%2Fkahaluu-bay-kona-big-island-hawaii-WRLDSNST1122.jpg%3Fitok%3DSFMX3uUf&w=800&q=85');
+  background-repeat: no-repeat;
+    background-size: 100%;
+  background-position:50% 50%;*/
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  margin: 0;
+  padding: 0;
+}
+
+.border {
+  padding: 5px;
+  background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%),
+    linear-gradient(110deg, #c5e7d7 34%, #88d8b0 34%);
+  background-size: 400% 400%;
+  height: 400px;
+  background-position: 25% 50%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 5s ease infinite;
+}
+.inner_cutout {
+  padding: 40px 0;
+  display: block;
+  background-color: #6999ff; /*#ff6f69*/
+
+  margin: 2%;
+  padding-bottom: 40px;
+  height: 300px;
+  background: radial-gradient(#1f4e94, #ced7ff);
+  background-size: 300%;
+  background-position: 50% 50%;
+}
+.knockout {
+  vertical-align: middle;
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 50pt;
+  color: blue;
+  color: #fff;
+  background: linear-gradient(110deg, #ffeead 33%, rgba(0, 0, 0, 0) 33%),
+    linear-gradient(110deg, #c5e7d7 34%, #88d8b0 34%);
+  background-size: 400%;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+.knockout {
+  animation: Gradient 5s ease infinite;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 5s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 30% 50%;
+  }
+  50% {
+    background-position: 25% 50%;
+  }
+  100% {
+    background-position: 30% 50%;
+  }
+}
+
+.main {
+  width: 500px;
+  height: 100%;
+  margin-left: 32%;
+  margin-right: 40%;
+  margin-top: 5%;
+}
+.start {
+  width: 100px;
+  height: 40px;
+  background-color: #1f4e94;
+  border-radius: 30px;
+  float: right;
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+}
+@media (max-width: 600px) {
+  .main {
+    width: 360px;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 40%;
+    margin-top: 5%;
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    width: 380px;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 40%;
+    margin-top: 5%;
+  }
+}
+@media (max-width: 400px) {
+  .main {
+    width: 340px;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 40%;
+    margin-top: 5%;
+  }
+}
+@media (max-width: 900px) {
+  .main {
+    width: 600px;
+    height: 100%;
+    margin-left: 12%;
+    margin-right: 40%;
+    margin-top: 5%;
+  }
+}
+@media (max-width: 540px) {
+  .main {
+    width: 520px;
+    height: 100%;
+    margin-left: 2%;
+    margin-right: 40%;
+    margin-top: 5%;
+  }
+}
