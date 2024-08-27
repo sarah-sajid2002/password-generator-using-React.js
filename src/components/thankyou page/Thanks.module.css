@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
+/* body {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 100px;
+} */
+.test {
+  -webkit-animation: squiggly-anim 0.34s linear infinite;
+  animation: squiggly-anim 0.34s linear infinite;
+}
+/* body {
+  line-height: 100vh;
+  background: #111;
+  color: #fff;
+} */
+.test {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  outline: none;
+  text-align: center;
+  line-height: 1;
+  margin-top: 200px;
+  font-size: 100px;
+}
+.small {
+  font-size: 0.5em;
+  margin: 0px 12px;
+}
+.smaller {
+  font-size: 0.4em;
+  margin: 0px 12px;
+}
+p {
+  margin: 0;
+}
+@-webkit-keyframes squiggly-anim {
+  0% {
+    filter: url("#squiggly-0");
+  }
+  25% {
+    filter: url("#squiggly-1");
+  }
+  50% {
+    filter: url("#squiggly-2");
+  }
+  75% {
+    filter: url("#squiggly-3");
+  }
+  100% {
+    filter: url("#squiggly-4");
+  }
+}
+@keyframes squiggly-anim {
+  0% {
+    filter: url("#squiggly-0");
+  }
+  25% {
+    filter: url("#squiggly-1");
+  }
+  50% {
+    filter: url("#squiggly-2");
+  }
+  75% {
+    filter: url("#squiggly-3");
+  }
+  100% {
+    filter: url("#squiggly-4");
+  }
+}
+@media (max-width: 500px) {
+  .test {
+    margin-top: 150px;
+    font-size: 90px;
+  }
+}
+@media (max-width: 400px) {
+  .test {
+    margin-top: 100px;
+    font-size: 60px;
+  }
+}
+@media (max-width: 1200) {
+  .test {
+    margin-top: 200px;
+    font-size: 160px;
+  }
+}
